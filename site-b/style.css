@@ -3,3 +3,19 @@
 body {
   font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', san-serif
 }
+
+.boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box3 {
+  float: left;
+  width: 70%;
+}
+
+.box4 {
+  float: left;
+  width: 30%;
+}
