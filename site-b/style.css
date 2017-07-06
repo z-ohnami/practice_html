@@ -20,4 +20,14 @@ body {
     float: left;
     width: 30%;
   }
+
+  .site h1 a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .site h1 {
+    margin: 0;
+    font-size: 30px;
+  }
 }
