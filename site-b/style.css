@@ -59,4 +59,15 @@ body {
     float: left;
     width: auto;
   }
+
+  .kiji h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .kiji p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }
