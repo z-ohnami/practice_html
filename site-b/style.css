@@ -64,6 +64,11 @@ body {
   margin-bottom: 20px;
 }
 
+.kiji img {
+  max-width: 100%;
+  height: auto;
+}
+
 .site h1 a {
   color: #000000;
   text-decoration: none;
