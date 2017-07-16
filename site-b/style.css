@@ -4,6 +4,14 @@ body {
   font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', san-serif
 }
 
+.box2 {
+  background-color: #7cbac1;
+}
+
+.box5 {
+  border-top: solid 1px #dddddd;
+}
+
 @media (min-width: 768px) {
   .boxA:after {
     content: "";
@@ -87,14 +95,14 @@ body {
 
 .menu li a {
   display: block; /* クリッカブルなエリアを幅広に取るための設定 */
-  padding: 5px; /* クリックできる領域を広めにする */
+  padding: 15px; /* クリックできる領域を広めにする */
   color: #000000;
   font-size: 14px;
   text-decoration: none;
 }
 
 .menu li a:hover {
-  background-color: #eeeeee;
+  background-color: #75dbe7;
 }
 
 .menu ul:after {
