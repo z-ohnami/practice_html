@@ -39,6 +39,11 @@ body {
   .box3 {
     float: left;
     width: 70%;
+    padding-right: 50px;
+    /* 上記のpaddingをwidth 70%内に含めるための対応 */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .box4 {
