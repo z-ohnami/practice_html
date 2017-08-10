@@ -29,6 +29,17 @@ body {
   border-top: solid 1px #dddddd;
 }
 
+@media (max-width: 599px) {
+  .menu li a {
+    padding: 10px 3px;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) ) {
+  
+}
+
 @media (min-width: 768px) {
   .boxA:after {
     content: "";
@@ -50,6 +61,10 @@ body {
     float: left;
     width: 30%;
   }
+}
+
+@media (min-width: 1040px) {
+
 }
 
 /* side menu */
