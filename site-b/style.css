@@ -109,7 +109,11 @@ body {
 }
 
 @media (min-width: 1040px) {
-
+  .box1, .box2, .boxA, .box5 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* side menu */
@@ -202,4 +206,5 @@ body {
   margin: 0;
   color: #666666;
   font-size: 14px;
+  text-align: center;
 }
