@@ -163,6 +163,17 @@ body {
   height: auto;
 }
 
+.kijiinfo {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.kijiinfo i {
+  margin-right: 5px;
+  color: #aaaaaa;
+  font-size: 20px;
+}
+
 .site h1 a {
   color: #83a4a8;
   text-decoration: none;
