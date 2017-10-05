@@ -174,6 +174,42 @@ body {
   font-size: 20px;
 }
 
+.kijicat {
+  margin-bottom: 25px;
+}
+
+.kijicat ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kijicat li a {
+  float: left;
+  width: auto;
+}
+
+.kijicat li a {
+  display: block;
+  margin-right: 5px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  background-color: #75dbe7;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.kijicat li a:hover {
+  background-color: #94ecf6;
+}
+
+.kijicat ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .site h1 a {
   color: #83a4a8;
   text-decoration: none;
