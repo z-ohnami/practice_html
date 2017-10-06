@@ -153,6 +153,13 @@ body {
   font-size: 36px;
 }
 
+.kiji h2 {
+  margin-top: 40px;
+  padding-left: 10px;
+  border-left: solid 10px #7cbac1;
+  font-weight: normal;
+}
+
 .kiji p {
   margin-top: 0;
   margin-bottom: 20px;
