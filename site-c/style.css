@@ -204,6 +204,12 @@ body {
   font-size: 12px;
 }
 
+.gaiyou img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
 .gaiyou h1 {
   margin-top: 0;
   margin-bottom: 20px;
