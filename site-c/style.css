@@ -35,6 +35,11 @@ body {
   border-top: solid 1px #dddddd;
 }
 
+.top .boxA {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 @media (max-width: 599px) {
   .menu li a {
     padding: 10px 3px;
