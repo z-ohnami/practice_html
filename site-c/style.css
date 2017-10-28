@@ -209,6 +209,13 @@ body {
   font-size: 12px;
 }
 
+.gaiyou a {
+  display: block;
+  border: solid 1px #dddddd;
+  color: #000000;
+  text-decoration: none;
+}
+
 .gaiyou img {
   max-width: 100%;
   height: auto;
