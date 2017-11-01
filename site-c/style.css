@@ -244,6 +244,17 @@ body {
   font-size: 14px;
 }
 
+.more {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #3077be;
+  color: #ffffff;
+}
+
+.more i {
+  margin-left: 10px;
+}
+
 .osusume img {
   width: 100%;
   height: auto;
