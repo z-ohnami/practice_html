@@ -81,6 +81,19 @@ body {
   }
 }
 
+@media (min-width: 600px) {
+  .boxA-1:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .boxA-1 .gaiyou {
+    float: left;
+    width: 50%;
+  }
+}
+
 @media (min-width: 600px) and (max-width: 767px) ) {
   .box4:after {
     content: "";
@@ -207,6 +220,10 @@ body {
   display: block;
   color: #666666;
   font-size: 12px;
+}
+
+.gaiyou {
+  margin-bottom: 20px;
 }
 
 .gaiyou a {
