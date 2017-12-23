@@ -43,6 +43,30 @@ body {
 .badge {
   width: 120px;
   height: 120px;
+  padding-top: 25px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background-color: #00a0e9;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 4px #aaaaaa;
+}
+
+.badge i {
+  display: block;
+  font-size: 40px;
+}
+
+.pickup {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 44%;
+  right: -15px;
 }
 
 @media (max-width: 599px) {
@@ -83,6 +107,17 @@ body {
   .share span {
     display: inline-block;
     text-indent: -9999px;
+  }
+
+  .badge {
+    -ms-transform: scale(0.5);
+    -ms-transform-origin: right top;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: right top;
+    transform: scale(0.5);
+    transform-origin: right top;
+    top: -8px;
+    right: 10px;
   }
 }
 
@@ -143,6 +178,11 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+  }
+
+  .badge {
+    top: 30%;
+    right: 15px;
   }
 }
 
