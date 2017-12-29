@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+body {
+  font-family: ' メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+.boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box1 {
+  float: left;
+  width: 50%;
+}
+
+.box2 {
+  float: left;
+  width: 50%;
+}
