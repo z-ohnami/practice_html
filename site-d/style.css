@@ -43,6 +43,13 @@ body {
   width: auto;
 }
 
+.topimg {
+  max-width: 100%;
+  height: auto;
+  /* 以下で下の余白が消える */
+  vertical-align: bottom;
+}
+
 @media (min-width: 768px) {
   .boxA:after {
     content: "";
