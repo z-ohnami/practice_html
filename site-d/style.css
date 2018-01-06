@@ -50,6 +50,24 @@ body {
   vertical-align: bottom;
 }
 
+.news ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news li a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.news li a:hover {
+  background-color: #eeeeee;
+}
+
 @media (min-width: 768px) {
   .boxA:after {
     content: "";
