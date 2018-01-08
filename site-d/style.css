@@ -22,7 +22,7 @@ body {
 
 .menu li a {
   display: block;
-  padding: 5px;
+  padding: 10px 15px;
   color: #000000;
   font-size: 14px;
   text-decoration: none;
@@ -97,11 +97,11 @@ body {
 
   .box1 {
     float: left;
-    width: 50%;
+    width: auto;
   }
 
   .box2 {
-    float: left;
-    width: 50%;
+    float: right;
+    width: auto;
   }
 }
