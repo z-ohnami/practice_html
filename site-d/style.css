@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+  margin: 0;
   font-family: ' メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
@@ -86,6 +87,11 @@ body {
   margin: 0;
   color: #666666;
   font-size: 14px;
+}
+
+.boxA, .box4, .box5 {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media (min-width: 768px) {
