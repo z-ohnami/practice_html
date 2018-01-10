@@ -89,9 +89,25 @@ body {
   font-size: 14px;
 }
 
+.box5 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #dddddd;
+}
+
 .boxA, .box4, .box5 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.boxA {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.box4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {
