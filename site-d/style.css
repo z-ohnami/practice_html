@@ -71,9 +71,25 @@ body {
 }
 
 .news time {
-  margin-right: 10px;
   color: #888888;
   font-weight: bold;
+}
+
+.news a:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.news time {
+  float: left;
+  width: 60px;
+}
+
+.news .text {
+  float: none;
+  width: auto;
+  margin-left: 60px;
 }
 
 .news h1 {
