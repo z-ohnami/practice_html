@@ -15,6 +15,10 @@ body {
   font-size: 30px;
 }
 
+.site img {
+  border: none;
+}
+
 .menu ul {
   margin: 0;
   padding: 0;
