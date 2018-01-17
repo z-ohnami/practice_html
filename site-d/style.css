@@ -135,6 +135,10 @@ body {
   padding-bottom: 20px;
 }
 
+.box4-1 {
+  padding-bottom: 20px;
+}
+
 @media (max-width: 599px) {
   .menu li a {
     padding: 10px 7px;
@@ -157,6 +161,26 @@ body {
   .box2 {
     float: right;
     width: auto;
+  }
+
+  .box4:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .box4-1 {
+    float: left;
+    width: 70%;
+    padding-right: 35px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .box4-2 {
+    float: left;
+    width: 30%;
   }
 }
 
