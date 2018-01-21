@@ -146,6 +146,37 @@ body {
   vertical-align: middle;
 }
 
+/* 補足説明 */
+
+.follow-info {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #dddddd;
+  font-size: 14px;
+  text-align: center;
+}
+
+.follow-info {
+  position: relative;
+  background: #dddddd;
+}
+
+.follow-info:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(221, 221, 221, 0);
+  border-top-color: #dddddd;
+  border-width: 15px;
+  margin-left: -15px;
+}
+
 .copyright p {
   margin: 0;
   color: #666666;
