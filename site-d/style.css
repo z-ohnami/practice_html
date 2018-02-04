@@ -307,7 +307,21 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  #menu {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
+  #menubtn {
+    display: none;
+  }
+
+  #menu {
+    display: block !important;
+  }
+
   .menu ul {
     margin: 0;
     padding: 0;

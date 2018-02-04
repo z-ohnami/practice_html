@@ -7,6 +7,14 @@
 <!--   <link rel="stylesheet" type="text/css" href="grid-guide.css"> -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script>
+    $(function() {
+      $("#menubtn").click(function() {
+        $("#menu").slideToggle();
+      })
+    });
+  </script>
 </head>
 
 <body class="top">
@@ -19,7 +27,8 @@
       </div>
 
       <div class="box2">
-        <nav class="menu">
+        <button type="button" id="menubtn">MENU</button>
+        <nav class="menu" id="menu">
           <ul>
             <li><a href="#">トップ</a></li>
             <li><a href="#">沿革</a></li>
